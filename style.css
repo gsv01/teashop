@@ -1,0 +1,140 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    margin: 0;
+    opacity: 0.9;
+}
+
+
+/* Header  */
+
+header{
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header nav{
+    display: flex; 
+    align-items: center;
+    background-color: black;
+}
+ 
+.logo{
+    flex: 1;
+    padding: 10px; 
+    /* border: 1px solid white;     */
+}
+
+.menu-links{
+    display: flex;
+    justify-content: center;
+    flex: 1;  
+    /* border: 1px solid white   */
+}
+
+.menu-links ul li{
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: underline; 
+}
+
+
+
+/* Intro Message */
+#intro{
+    margin-top: 69px;
+}
+
+
+.intro_img{
+    height: 700px;
+    background-image: url("intro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.intro_img .banner{ 
+    flex: 1;
+    text-align: center;
+    background-color: black;
+}
+
+
+/* Products */
+
+#products{
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+figure img{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+/* Locations */
+
+#locator{
+    height: 500px;
+    background-image: url("cofee.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationsz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location{
+    min-width: 300px; 
+    flex-shrink: 1;
+    text-align: center;
+    background-color: black; 
+    margin: 20px;
+}
+
+
+.location h4{
+    font-weight: 300;
+} 
+
+.location ul li{
+    list-style-type: none;
+    padding-top: 7px;
+}
+
+
+
+/* Contact */
+
+#contact{
+    text-align:center;
+}
+
+
+/* Footer */
+footer{
+    padding: 20px;
+    text-align: left;
+}
